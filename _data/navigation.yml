@@ -1,9 +1,7 @@
 - title: About
   url: about
-- title: Categories
-  url: /categories/
 - title: Tags
-  url: /tags/
+  url: tags
 - title: More
   sublinks:
     - title: FAQ

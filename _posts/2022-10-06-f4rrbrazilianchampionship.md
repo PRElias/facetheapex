@@ -12,4 +12,4 @@ No more time to practive guys!
 
 Yeah, I'm joking. I now that no one is reading this site yet Lol or even in the future and this championship would be on the past but we are very excited!
 <!--more-->
-The competition is organized by our friends on RaceRoomers and you can watch live on Youtube
+The competition is organized by our friends on [RaceRoomers](https://www.youtube.com/c/RaceroomersTV) and you can watch live on Youtube

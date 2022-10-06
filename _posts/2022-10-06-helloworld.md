@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "Hello World!"
+---
+
 Hello and Welcome to Face The Apex
 
 The ideia of creating this site is primarly to have fun. Me and my friend Marcos already tried creating a site in the past but we soon lost the will to continue. So, this is our second attempt.

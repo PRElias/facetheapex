@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "RaceRoom F4 Brazilian Championship"
-tag: events
+tag: events, RaceRoom
 ---
 
 #RaceRoom F4 Brazilian Championship

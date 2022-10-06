@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Hello World!"
+tag: bullshit
 ---
 
 Hello and Welcome to Face The Apex

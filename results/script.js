@@ -1,19 +1,24 @@
 $(document).ready( function () {
     fetch('https://raw.githubusercontent.com/PRElias/facetheapex/main/results/data.json')
         .then((response) => response.json())
-        .then((dados) => fillTable(dados.stats.history));
+        .then((dados) => fillTable(dados));
 
 } );
 
 function fillTable(dados) {
-    var table = document.getElementById("myTable");
+    var sessionsTable = document.getElementById("sessionsTable");
+    var driversTable = document.getElementById("driversTable");
 
     debugger;
 
+    var sessions = dados.stats.history;
+    var drivers = dados.stats.players;
+    drivers = Object.values(drivers);
+
     console.log(dados);
     
-    dados.forEach(element => {
-        var row = table.insertRow(-1);
+    sessions.forEach(element => {
+        var row = sessionsTable.insertRow(-1);
         var cell1 = row.insertCell(0);
         var cell2 = row.insertCell(1);
         var cell3 = row.insertCell(2);
@@ -24,7 +29,16 @@ function fillTable(dados) {
         cell4.innerHTML = element.finished;
     });
 
-    $('#myTable').DataTable();
+    drivers.forEach(element => {
+        var row = driversTable.insertRow(-1);
+        var cell1 = row.insertCell(0);
+        var cell2 = row.insertCell(1);
+        cell1.innerHTML = element.name;
+        cell2.innerHTML = formatDate(element.last_joined);
+    });
+
+    $('#sessionsTable').DataTable();
+    $('#driversTable').DataTable();
 };
 
 function formatDate(date) {

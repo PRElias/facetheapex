@@ -1,0 +1,183 @@
+{
+    "next_history_index" : 2,
+    "stats" : {
+      "history" : [
+        {
+          "end_time" : 1666726011,
+          "finished" : false,
+          "index" : 1,
+          "members" : {},
+          "participants" : [
+            {
+              "IsPlayer" : 1,
+              "LiveryId" : 74,
+              "Name" : "Pepeu",
+              "RefId" : 32512,
+              "SteamID" : "76561198063570074",
+              "VehicleId" : 1323381033
+            }
+          ],
+          "setup" : {
+            "AllowedCutsBeforePenalty" : 0,
+            "AllowedViews" : 0,
+            "DamageRandomFailures" : 0,
+            "DamageScale" : 0,
+            "DamageType" : 3,
+            "DisablePitstopRefuelling" : 0,
+            "DriveThroughPenalty" : 0,
+            "Flags" : 135791352,
+            "FuelUsageType" : 0,
+            "FullCourseYellows" : 0,
+            "GridLayout" : 0,
+            "GridSize" : 12,
+            "ManualPitStops" : 0,
+            "ManualRollingStarts" : 0,
+            "MaxPlayers" : 12,
+            "MinimumOnlineRank" : 0,
+            "MinimumOnlineStrength" : 100,
+            "MultiClassSlot1" : -1,
+            "MultiClassSlot2" : -1,
+            "MultiClassSlot3" : -1,
+            "MultiClassSlot4" : -1,
+            "MultiClassSlot5" : -1,
+            "MultiClassSlot6" : -1,
+            "MultiClassSlot7" : -1,
+            "MultiClassSlot8" : -1,
+            "MultiClassSlot9" : -1,
+            "MultiClassSlots" : 0,
+            "OpponentDifficulty" : 50,
+            "PenaltiesType" : 1,
+            "PitWhiteLinePenalty" : 0,
+            "PracticeDateHour" : 15,
+            "PracticeDateProgression" : 1,
+            "PracticeLength" : 10,
+            "PracticeLiveTrackPreset" : 0,
+            "PracticeWeatherProgression" : 0,
+            "PracticeWeatherSlot1" : 0,
+            "PracticeWeatherSlot2" : 0,
+            "PracticeWeatherSlot3" : 0,
+            "PracticeWeatherSlot4" : 0,
+            "PracticeWeatherSlots" : 0,
+            "QualifyDateHour" : 15,
+            "QualifyDateProgression" : 1,
+            "QualifyLength" : 10,
+            "QualifyLiveTrackPreset" : 0,
+            "QualifyWeatherProgression" : 0,
+            "QualifyWeatherSlot1" : 0,
+            "QualifyWeatherSlot2" : 0,
+            "QualifyWeatherSlot3" : 0,
+            "QualifyWeatherSlot4" : 0,
+            "QualifyWeatherSlots" : 0,
+            "RaceDateDay" : 23,
+            "RaceDateHour" : 15,
+            "RaceDateMonth" : 8,
+            "RaceDateProgression" : 1,
+            "RaceDateYear" : 2020,
+            "RaceExtraLap" : 0,
+            "RaceFormationLap" : 0,
+            "RaceLength" : 10,
+            "RaceLiveTrackPreset" : 0,
+            "RaceMandatoryPitStops" : 0,
+            "RaceRollingStart" : 0,
+            "RaceWeatherProgression" : 0,
+            "RaceWeatherSlot1" : -934211870,
+            "RaceWeatherSlot2" : -934211870,
+            "RaceWeatherSlot3" : -934211870,
+            "RaceWeatherSlot4" : -934211870,
+            "RaceWeatherSlots" : 1,
+            "ServerControlsSetup" : 1,
+            "ServerControlsTrack" : 1,
+            "ServerControlsVehicle" : 0,
+            "ServerControlsVehicleClass" : 1,
+            "TireWearType" : 6,
+            "TrackId" : 1497365379,
+            "VehicleClassId" : 492525831,
+            "VehicleModelId" : 1323381033
+          },
+          "stages" : {
+            "practice1" : {
+              "end_time" : 1666725516,
+              "events" : {},
+              "results" : [
+                {
+                  "attributes" : {
+                    "FastestLapTime" : 0,
+                    "Lap" : 0,
+                    "RacePosition" : 1,
+                    "State" : "Retired",
+                    "TotalTime" : 721010,
+                    "VehicleId" : 1323381033
+                  },
+                  "is_player" : true,
+                  "name" : "Pepeu",
+                  "participantid" : 1,
+                  "refid" : 32512,
+                  "time" : 1666724947
+                }
+              ],
+              "start_time" : 1666724226
+            }
+          },
+          "start_time" : 1666724203
+        }
+      ],
+      "players" : {
+        "76561198063570074" : {
+          "counts" : {
+            "qualify" : {
+              "positions" : {},
+              "positions_per_size" : {},
+              "states" : {}
+            },
+            "race" : {
+              "positions" : {},
+              "positions_per_size" : {},
+              "states" : {}
+            },
+            "race_finishes" : 0,
+            "race_joins" : 1,
+            "race_loads" : 0,
+            "race_loads_done" : 0,
+            "track_distances" : {},
+            "tracks" : {},
+            "vehicle_distances" : {},
+            "vehicles" : {}
+          },
+          "last_joined" : 1666724202,
+          "name" : "Pepeu"
+        }
+      },
+      "server" : {
+        "name" : "FBZ Racing Server",
+        "steam_disconnects" : 0,
+        "steam_downtime" : 0,
+        "total_steam_downtime" : 0,
+        "total_uptime" : "2757.98",
+        "uptime" : "2757.98"
+      },
+      "session" : {
+        "counts" : {
+          "lobbies" : 1,
+          "player_finishes" : 0,
+          "player_loads" : 0,
+          "player_loads_done" : 0,
+          "race_finishes" : 0,
+          "race_loads" : 1,
+          "race_loads_done" : 1,
+          "sessions" : 1,
+          "stage_counts" : {
+            "practice1" : 1
+          },
+          "stage_durations" : {
+            "practice1" : 1290953
+          },
+          "track_distances" : {},
+          "tracks" : {
+            "1497365379" : 1
+          },
+          "vehicle_distances" : {},
+          "vehicles" : {}
+        }
+      }
+    }
+  }

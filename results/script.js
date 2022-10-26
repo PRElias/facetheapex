@@ -1,5 +1,5 @@
 $(document).ready( function () {
-    fetch('./data.json')
+    fetch('https://raw.githubusercontent.com/PRElias/facetheapex/main/results/data.json')
         .then((response) => response.json())
         .then((dados) => fillTable(dados.stats.history));
 

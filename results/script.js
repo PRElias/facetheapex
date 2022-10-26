@@ -1,4 +1,5 @@
 $(document).ready( function () {
+    // fetch('./data.json')
     fetch('https://raw.githubusercontent.com/PRElias/facetheapex/main/results/data.json')
         .then((response) => response.json())
         .then((dados) => fillTable(dados));
@@ -37,8 +38,10 @@ function fillTable(dados) {
         cell2.innerHTML = formatDate(element.last_joined);
     });
 
-    $('#sessionsTable').DataTable();
-    $('#driversTable').DataTable();
+    $('#sessionsTable').DataTable({ paging: false, searching: false });
+    $('#driversTable').DataTable({ paging: false, searching: false });
+    $(".dataTables_empty").remove();
+    $(".dataTables_info").remove();
 };
 
 function formatDate(date) {
